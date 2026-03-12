@@ -1,8 +1,8 @@
-# 🎸 Code2Tab
+# 🎸 Chord2Tab
 
 音声ファイルをアップロードするだけで、AI と音響解析のハイブリッド推定によって **コード進行を自動認識**し、**ギタータブ譜と MIDI** を生成するアプリです。
 
-すぐに動かせる簡単なアプリ版はここからダウンロードできます。[https://github.com/yuumasyo/Code2Tab/releases/tag/App]
+すぐに動かせる簡単なアプリ版はここからダウンロードできます。[https://github.com/yuumasyo/Chord2Tab/releases/tag/App]
 
 ---
 
@@ -123,12 +123,12 @@ cd dist_pywebview
 build.bat
 ```
 
-ビルドが完了すると `dist_pywebview\dist\Code2Tab\` に成果物が出力されます。  
-`Code2Tab.exe` をダブルクリックするだけで起動します。
+ビルドが完了すると `dist_pywebview\dist\Chord2Tab\` に成果物が出力されます。  
+`Chord2Tab.exe` をダブルクリックするだけで起動します。
 
 ### 配布方法
 
-`dist\Code2Tab\` フォルダ全体を zip に固めて配布してください（約 800 MB〜1.2 GB）。
+`dist\Chord2Tab\` フォルダ全体を zip に固めて配布してください（約 800 MB～1.2 GB）。
 
 > **補足**: ビルドには PySide6 / Qt バックエンドを使用しています。  
 > pywebview 6.x の Windows バックエンドは Qt か WinForms（pythonnet 必須）の 2 択ですが、  
@@ -139,7 +139,7 @@ build.bat
 ## プロジェクト構成
 
 ```
-Code2tab/
+Chord2Tab/
 ├── app.py                   # Streamlit メインアプリ
 ├── requirements.txt         # Python 依存パッケージ
 ├── run_app.bat              # 開発起動スクリプト

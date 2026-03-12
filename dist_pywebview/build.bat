@@ -4,7 +4,7 @@ chcp 65001 > nul
 cd /d "%~dp0"
 
 echo ============================================================
-echo  Code2Tab ビルドスクリプト (pywebview + PyInstaller)
+echo  Chord2Tab ビルドスクリプト (pywebview + PyInstaller)
 echo ============================================================
 echo.
 
@@ -72,13 +72,13 @@ if errorlevel 1 (
 echo.
 echo ============================================================
 echo  ビルド完了!
-echo  出力先: %~dp0dist\Code2Tab\
+echo  出力先: %~dp0dist\Chord2Tab\
 echo.
 echo  動作確認:
-echo    dist\Code2Tab\Code2Tab.exe を実行してください
+echo    dist\Chord2Tab\Chord2Tab.exe を実行してください
 echo.
 echo  配布方法:
-echo    dist\Code2Tab\ ディレクトリ全体を zip に固めて配布
+echo    dist\Chord2Tab\ ディレクトリ全体を zip に固めて配布
 echo    または Inno Setup で .exe インストーラーを作成 (README 参照)
 echo ============================================================
 pause

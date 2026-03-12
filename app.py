@@ -19,9 +19,9 @@ except ImportError:
     from src.chord_analyser import estimate_chords, estimate_chords_from_midi, synthesize_midi_to_wav
     from src.tab_generator import generate_ascii_tab, get_chord_fingering, format_tab_string
 
-st.set_page_config(page_title="Code2Tab", layout="wide")
+st.set_page_config(page_title="Chord2Tab", layout="wide")
 
-st.title("🎸 Code2Tab")
+st.title("🎸 Chord2Tab")
 st.markdown("音声ファイルをアップロード → AI + 音響解析のハイブリッド推定でコード進行を推定 → ギタータブ譜 & MIDIを生成します。")
 
 # Sidebar

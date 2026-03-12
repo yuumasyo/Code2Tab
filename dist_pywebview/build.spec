@@ -1,13 +1,13 @@
 # -*- mode: python ; coding: utf-8 -*-
 """
-Code2Tab PyInstaller spec
+Chord2Tab PyInstaller spec
 =========================
 ビルドコマンド (dist_pywebview/ ディレクトリで実行):
     pyinstaller build.spec --clean --noconfirm
 
 出力:
-    dist_pywebview/dist/Code2Tab/      ← 配布する一式ディレクトリ
-    dist_pywebview/dist/Code2Tab.exe   ← ランチャー実行ファイル
+    dist_pywebview/dist/Chord2Tab/      ← 配布する一式ディレクトリ
+    dist_pywebview/dist/Chord2Tab.exe   ← ランチャー実行ファイル
 
 注意:
   - PyTorch を含むため、ビルド成果物は 800MB〜1.2GB になります。
@@ -195,7 +195,7 @@ exe = EXE(
     a.scripts,
     [],
     exclude_binaries=True,      # one-dir ビルド
-    name='Code2Tab',
+    name='Chord2Tab',
     debug=False,
     bootloader_ignore_signals=False,
     strip=False,
@@ -216,5 +216,5 @@ coll = COLLECT(
     strip=False,
     upx=False,
     upx_exclude=[],
-    name='Code2Tab',
+    name='Chord2Tab',
 )
