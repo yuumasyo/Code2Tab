@@ -1,0 +1,15 @@
+streamlit
+librosa>=0.10.0
+numpy
+soundfile
+torch
+torchaudio
+mir_eval
+pretty_midi
+midiutil
+onnxruntime
+resampy
+scikit-learn
+pyyaml
+
+
