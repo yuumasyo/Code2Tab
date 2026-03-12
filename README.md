@@ -41,7 +41,8 @@
 | [Demucs](https://github.com/facebookresearch/demucs) | Meta 製の高品質音源分離モデル。`other.wav` がギター + シンセを含むトラック |
 | [LALAL.AI](https://www.lalal.ai/) | ブラウザで手軽に音源分離できるオンラインサービス |
 | [Spleeter](https://github.com/deezer/spleeter) | Deezer 製の高速音源分離ツール |
-
+| [BandLab Splitter](https://www.bandlab.com/splitter)|ブラウザで一日二回まで無料で音源を分離可能|
+| [VocalRemover](VocalRemover.org)|制限はあるが、ブラウザで比較的手軽に分離可能。|
 
 ---
 
