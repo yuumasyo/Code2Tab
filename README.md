@@ -2,6 +2,8 @@
 
 音声ファイルをアップロードするだけで、AI と音響解析のハイブリッド推定によって **コード進行を自動認識**し、**ギタータブ譜と MIDI** を生成するアプリです。
 
+すぐに動かせる簡単なアプリ版はここからダウンロードできます。[https://github.com/yuumasyo/Code2Tab/releases/tag/App]
+
 ---
 
 ## 機能
@@ -81,6 +83,10 @@
 ## インストール & 起動（開発環境）
 
 Python 3.12 以上が必要です。
+
+ただ動かしたい場合、Python環境がPCに入っていない場合、以下のビルド済みのアプリ版がおすすめです。
+
+[https://github.com/yuumasyo/Code2Tab/releases/tag/App]
 
 ```bash
 # 1. 仮想環境を作成して有効化
@@ -164,9 +170,12 @@ Code2tab/
 
 ---
 
+BTC モデル: [MIT License](src/BTC/LICENSE)  
+Basic Pitch: [Apache License 2.0](https://github.com/spotify/basic-pitch/blob/main/LICENSE)
+
+---
 ## ライセンス
 
 © 2026 yuutti
 
-BTC モデル: [MIT License](src/BTC/LICENSE)  
-Basic Pitch: [Apache License 2.0](https://github.com/spotify/basic-pitch/blob/main/LICENSE)
+MIT License
